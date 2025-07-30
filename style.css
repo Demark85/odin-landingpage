@@ -94,17 +94,11 @@ button {
     padding: 16px 0;
 }
 
-.content .images {
+.content .image {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-end;
-    height: 200px;
-    width: auto;
-    padding: 32px;
+    justify-content: flex-end;
+    align-items: center;
     
-    gap: 32px;
-    flex: 0 0 auto;
 }
 
 .content .sub {
