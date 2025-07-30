@@ -94,8 +94,8 @@ button {
     padding: 16px 0;
 }
 
-.content .images {
-    display: flex;
+.images {
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
