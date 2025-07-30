@@ -94,10 +94,16 @@ button {
     padding: 16px 0;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     
 }
