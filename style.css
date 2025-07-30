@@ -94,7 +94,7 @@ button {
     padding: 16px 0;
 }
 
-.content .image {
+.image {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
