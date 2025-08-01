@@ -1,6 +1,7 @@
 * {
     font-family: "Roboto";
     margin: 0;
+    padding: 0 32px;
 }
 
 .navbar {
@@ -32,7 +33,6 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     align-self: center;
-    padding: 8px 20px;
     
 }
 
@@ -41,7 +41,6 @@ a {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    max-height: 202px;
     
 }
 
@@ -55,7 +54,6 @@ a {
     flex-wrap: nowrap;
     max-width: 540px;
     min-width; 400px;
-    padding-left: 50px;
     flex-shrink: 0, 1, 50%;
 }
 
@@ -66,7 +64,6 @@ a {
     display: flex;
     align-items: flex-start;
     max-width: 530px;
-    padding-left: 50px;
     flex-shrink: 0;
 }
 
@@ -74,7 +71,6 @@ button {
     background: #3882F6;
     color: #E5E7EB;
     font-size: 18px;
-    margin-left: 50px;
 }
 
 .hero button {
