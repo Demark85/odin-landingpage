@@ -115,7 +115,7 @@ img {
     align-items: flex-start;
 }
 
-.subtext {
+.image .subtext {
     display: flex;
     justify-content: center;
 }
