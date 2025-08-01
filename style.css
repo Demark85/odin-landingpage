@@ -39,7 +39,7 @@ a {
     background: #1F2937;
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
+    align-items: flex-start;
     
 }
 
