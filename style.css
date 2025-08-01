@@ -113,5 +113,8 @@ img {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: flex-start;
-    align-content: center;
+}
+
+.subtext {
+    justify-content: center;
 }
