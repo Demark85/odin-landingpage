@@ -31,7 +31,8 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    align-self: center;
+    align-self: flex-start;
+    padding: 8px 50px;
     
 }
 
@@ -39,7 +40,11 @@ a {
     background: #1F2937;
     display: flex;
     flex-flow: column wrap;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 50px;
+    flex-basis: 30%
     
 }
 
@@ -52,8 +57,9 @@ a {
     align-items: flex-end;
     flex-wrap: nowrap;
     max-width: 540px;
-    min-width; 400px;
-    flex-shrink: 0, 1, 50%;
+    min-width: 400px;
+    padding-left: 50px;
+    flex: 0, 1, 50%;
 }
 
 .sub {
@@ -81,14 +87,16 @@ button {
     height: 200px;
     width: 500px;
     border: none;
-    self-align: flex-end;
+    align-self: flex-end;
+}
+
+img {
+    border: 5px solid #3882F6;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .content .title {
@@ -96,6 +104,7 @@ button {
     color: #1F2937;
     font-weight: 900;
     align-self: center;
+    align-content: flex-end;
     padding: 16px 0;
 }
 
@@ -104,26 +113,5 @@ button {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: flex-start;
-}
-
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-
-.content .sub {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    width: auto;
-    gap: 8px;
-    flex: 0 0 auto;
-}
-
-img {
-    border: 5px solid #3882F6;
+    align-content: center;
 }
